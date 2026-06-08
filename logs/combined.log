@@ -1,0 +1,6 @@
+2026-06-08 21:35:03 [[31merror[39m]: Failed to connect to MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\mongoose\lib\connection.js:1180:11)
+    at NativeConnection.openUri (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\mongoose\lib\connection.js:1111:11)
+    at connectDB (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\config\db.ts:9:18)
+    at start (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\server.ts:45:3)

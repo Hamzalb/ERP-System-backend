@@ -11,7 +11,7 @@ const devFormat = combine(
   colorize(),
   timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
   errors({ stack: true }),
-  printf(({ level, message, timestamp, stack }) =>
+  printf(({ level, message, timestamp, stack }: Record<string, unknown>) =>
     stack ? `${timestamp} [${level}]: ${message}\n${stack}` : `${timestamp} [${level}]: ${message}`,
   ),
 );

@@ -78,7 +78,7 @@ export const getSessions = asyncHandler(async (req: AuthRequest, res: Response) 
 });
 
 export const revokeSession = asyncHandler(async (req: AuthRequest, res: Response) => {
-  const { tokenFamily } = req.params;
+  const tokenFamily = req.params.tokenFamily as string;
   await authService.revokeSession(req.user!.userId, tokenFamily);
   sendSuccess(res, null, 'Session revoked');
 });

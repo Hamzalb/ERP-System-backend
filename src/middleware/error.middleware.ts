@@ -19,7 +19,7 @@ export const errorHandler = (
   }
 
   if (err instanceof ZodError) {
-    const errors = err.errors.map((e) => `${e.path.join('.')}: ${e.message}`);
+    const errors = err.issues.map((e) => `${e.path.join('.')}: ${e.message}`);
     sendError(res, 400, 'Validation failed', errors);
     return;
   }
@@ -35,7 +35,7 @@ export const errorHandler = (
     return;
   }
 
-  if ((err as NodeJS.ErrnoException).code === 11000) {
+  if ((err as any).code === 11000) {
     sendError(res, 409, 'Duplicate key error — resource already exists');
     return;
   }

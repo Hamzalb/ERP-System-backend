@@ -31,6 +31,7 @@ import filesRoutes from './modules/files/files.routes';
 import companyRoutes from './modules/company/company.routes';
 import reportsRoutes from './modules/reports/reports.routes';
 import auditRoutes from './modules/audit/audit.routes';
+import searchRoutes from './modules/search/search.routes';
 
 const app = express();
 
@@ -98,6 +99,7 @@ app.use(`${v1}/files`, filesRoutes);
 app.use(`${v1}/company`, companyRoutes);
 app.use(`${v1}/reports`, reportsRoutes);
 app.use(`${v1}/audit`, auditRoutes);
+app.use(`${v1}/search`, searchRoutes);
 
 // 404 + Error handlers (must be last)
 app.use(notFoundHandler);
