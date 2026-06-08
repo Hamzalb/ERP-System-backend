@@ -64,3 +64,238 @@ Error: No refresh token
     at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
     at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:295:15
     at processParams (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:582:12)
+2026-06-09 02:23:16 [[31merror[39m]: [POST] /api/v1/auth/login — [
+  {
+    "expected": "object",
+    "code": "invalid_type",
+    "path": [],
+    "message": "Invalid input: expected object, received undefined"
+  }
+]
+ZodError: [
+  {
+    "expected": "object",
+    "code": "invalid_type",
+    "path": [],
+    "message": "Invalid input: expected object, received undefined"
+  }
+]
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.controller.ts:19:29
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\asyncHandler.ts:6:21
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:291:5)
+2026-06-09 02:32:52 [[31merror[39m]: [POST] /api/v1/auth/refresh — No refresh token
+Error: No refresh token
+    at ApiError.unauthorized (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:19:12)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.controller.ts:34:30
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\asyncHandler.ts:6:21
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:582:12)
+2026-06-09 02:32:53 [[31merror[39m]: [POST] /api/v1/auth/refresh — No refresh token
+Error: No refresh token
+    at ApiError.unauthorized (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:19:12)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.controller.ts:34:30
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\asyncHandler.ts:6:21
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:582:12)
+2026-06-09 02:33:00 [[31merror[39m]: [POST] /api/v1/auth/refresh — No refresh token
+Error: No refresh token
+    at ApiError.unauthorized (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:19:12)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.controller.ts:34:30
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\asyncHandler.ts:6:21
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:582:12)
+2026-06-09 02:33:00 [[31merror[39m]: [POST] /api/v1/auth/refresh — No refresh token
+Error: No refresh token
+    at ApiError.unauthorized (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:19:12)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.controller.ts:34:30
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\asyncHandler.ts:6:21
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:582:12)
+2026-06-09 02:33:48 [[31merror[39m]: [POST] /api/v1/auth/refresh — No refresh token
+Error: No refresh token
+    at ApiError.unauthorized (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:19:12)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.controller.ts:34:30
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\asyncHandler.ts:6:21
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:582:12)
+2026-06-09 02:33:48 [[31merror[39m]: [POST] /api/v1/auth/refresh — No refresh token
+Error: No refresh token
+    at ApiError.unauthorized (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:19:12)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.controller.ts:34:30
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\asyncHandler.ts:6:21
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:582:12)
+2026-06-09 02:34:19 [[31merror[39m]: [POST] /api/v1/auth/refresh — No refresh token
+Error: No refresh token
+    at ApiError.unauthorized (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:19:12)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.controller.ts:34:30
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\asyncHandler.ts:6:21
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:582:12)
+2026-06-09 02:39:37 [[31merror[39m]: [POST] /api/v1/auth/refresh — No refresh token
+Error: No refresh token
+    at ApiError.unauthorized (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:19:12)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.controller.ts:34:30
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\asyncHandler.ts:6:21
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:582:12)
+2026-06-09 02:40:31 [[31merror[39m]: [POST] /api/v1/auth/refresh — No refresh token
+Error: No refresh token
+    at ApiError.unauthorized (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:19:12)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.controller.ts:34:30
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\asyncHandler.ts:6:21
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:582:12)
+2026-06-09 02:42:42 [[31merror[39m]: [POST] /api/v1/auth/refresh — No refresh token
+Error: No refresh token
+    at ApiError.unauthorized (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:19:12)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.controller.ts:34:30
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\asyncHandler.ts:6:21
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:582:12)
+2026-06-09 02:44:06 [[31merror[39m]: [POST] /api/v1/auth/login — Invalid email or password
+Error: Invalid email or password
+    at ApiError.unauthorized (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:19:12)
+    at Object.login (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.service.ts:49:22)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.controller.ts:20:18
+2026-06-09 02:44:08 [[31merror[39m]: [POST] /api/v1/auth/refresh — No refresh token
+Error: No refresh token
+    at ApiError.unauthorized (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:19:12)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.controller.ts:34:30
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\asyncHandler.ts:6:21
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:582:12)
+2026-06-09 02:44:10 [[31merror[39m]: [GET] /api/v1/sales/invoices — Cast to ObjectId failed for value "invoices" (type string) at path "_id" for model "Invoice"
+CastError: Cast to ObjectId failed for value "invoices" (type string) at path "_id" for model "Invoice"
+    at SchemaObjectId.cast (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\mongoose\lib\schema\objectId.js:252:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\mongoose\lib\schemaType.js:1372:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\mongoose\lib\schemaType.js:1792:17)
+    at cast (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\mongoose\lib\cast.js:386:32)
+    at model.Query.Query.cast (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\mongoose\lib\query.js:5212:12)
+    at model.Query.Query._castConditions (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\mongoose\lib\query.js:2409:10)
+    at model.Query._findOne (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\mongoose\lib\query.js:2756:8)
+    at model.Query.exec (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\mongoose\lib\query.js:4797:80)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\sales\sales.routes.ts:44:19
+2026-06-09 02:44:10 [[31merror[39m]: [GET] /api/v1/purchases — Route not found: GET /api/v1/purchases
+Error: Route not found: GET /api/v1/purchases
+    at ApiError.notFound (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:27:12)
+    at notFoundHandler (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\middleware\error.middleware.ts:47:17)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:291:5)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:688:15
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:276:14)
+    at authenticate (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\middleware\auth.middleware.ts:23:5)
+2026-06-09 02:44:11 [[31merror[39m]: [GET] /api/v1/accounting — Route not found: GET /api/v1/accounting
+Error: Route not found: GET /api/v1/accounting
+    at ApiError.notFound (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:27:12)
+    at notFoundHandler (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\middleware\error.middleware.ts:47:17)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:291:5)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:688:15
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:276:14)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\middleware\rbac.middleware.ts:16:5
+2026-06-09 02:44:14 [[31merror[39m]: [GET] /api/v1/reports — Route not found: GET /api/v1/reports
+Error: Route not found: GET /api/v1/reports
+    at ApiError.notFound (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:27:12)
+    at notFoundHandler (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\middleware\error.middleware.ts:47:17)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:291:5)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:688:15
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:276:14)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\middleware\rbac.middleware.ts:16:5
+2026-06-09 02:44:14 [[31merror[39m]: [GET] /api/v1/users/me — No token provided
+Error: No token provided
+    at ApiError.unauthorized (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:19:12)
+    at authenticate (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\middleware\auth.middleware.ts:16:26)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:60:12)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+2026-06-09 02:44:14 [[31merror[39m]: [GET] /api/v1/employees — No token provided
+Error: No token provided
+    at ApiError.unauthorized (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:19:12)
+    at authenticate (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\middleware\auth.middleware.ts:16:26)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:60:12)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
