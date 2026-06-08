@@ -16,3 +16,51 @@ MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUS
     at NativeConnection.openUri (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\mongoose\lib\connection.js:1111:11)
     at connectDB (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\config\db.ts:9:18)
     at start (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\server.ts:45:3)
+2026-06-09 02:12:39 [[31merror[39m]: [POST] /api/v1/auth/login — Invalid email or password
+Error: Invalid email or password
+    at ApiError.unauthorized (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:19:12)
+    at Object.login (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.service.ts:49:22)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.controller.ts:20:18
+2026-06-09 02:12:39 [[31merror[39m]: [POST] /api/v1/auth/login — Invalid email or password
+Error: Invalid email or password
+    at ApiError.unauthorized (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:19:12)
+    at Object.login (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.service.ts:49:22)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.controller.ts:20:18
+2026-06-09 02:12:40 [[31merror[39m]: [POST] /api/v1/auth/login — Invalid email or password
+Error: Invalid email or password
+    at ApiError.unauthorized (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:19:12)
+    at Object.login (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.service.ts:49:22)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.controller.ts:20:18
+2026-06-09 02:12:41 [[31merror[39m]: [POST] /api/v1/auth/login — Invalid email or password
+Error: Invalid email or password
+    at ApiError.unauthorized (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:19:12)
+    at Object.login (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.service.ts:49:22)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.controller.ts:20:18
+2026-06-09 02:17:49 [[31merror[39m]: [POST] /api/v1/auth/refresh — No refresh token
+Error: No refresh token
+    at ApiError.unauthorized (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:19:12)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.controller.ts:34:30
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\asyncHandler.ts:6:21
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:582:12)
+2026-06-09 02:17:49 [[31merror[39m]: [POST] /api/v1/auth/refresh — No refresh token
+Error: No refresh token
+    at ApiError.unauthorized (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\ApiError.ts:19:12)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\modules\auth\auth.controller.ts:34:30
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\src\utils\asyncHandler.ts:6:21
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documentos\my project\Erp\backend\node_modules\router\index.js:582:12)

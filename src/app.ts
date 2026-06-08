@@ -58,9 +58,10 @@ app.use('/api', rateLimit({
   legacyHeaders: false,
 }));
 
-// Stricter limit on auth endpoints
-app.use('/api/v1/auth/login', rateLimit({ windowMs: 15 * 60 * 1000, max: 10 }));
-app.use('/api/v1/auth/register', rateLimit({ windowMs: 60 * 60 * 1000, max: 5 }));
+// Stricter limit on auth endpoints (relaxed in dev)
+const isDev = env.nodeEnv === 'development';
+app.use('/api/v1/auth/login', rateLimit({ windowMs: 15 * 60 * 1000, max: isDev ? 1000 : 10 }));
+app.use('/api/v1/auth/register', rateLimit({ windowMs: 60 * 60 * 1000, max: isDev ? 100 : 5 }));
 
 // Parsers
 app.use(express.json({ limit: '10mb' }));

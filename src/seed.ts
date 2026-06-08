@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import bcrypt from 'bcryptjs';
 import { env } from './config/env';
 import { Permission } from './models/Permission.model';
 import { Role } from './models/Role.model';
@@ -159,23 +158,28 @@ async function seed() {
   }
   console.log(`  ${ROLES_SEED.length} roles upserted.`);
 
-  // Create default admin user
+  // Create or reset admin user
   console.log('Seeding admin user...');
   const superAdminRole = roleMap['SuperAdmin'];
-  const existingAdmin = await User.findOne({ email: 'admin@erp.com' });
+  const existingAdmin = await User.findOne({ email: 'admin@erp.com' }).select('+password');
   if (!existingAdmin) {
-    const hashed = await bcrypt.hash('Admin@12345', 12);
+    // Pass plain password — pre-save hook hashes it
     await User.create({
       name: 'Admin User',
       email: 'admin@erp.com',
-      password: hashed,
+      password: 'Admin@12345',
       roles: [superAdminRole],
       status: 'active',
       isEmailVerified: true,
     });
     console.log('  Admin user created: admin@erp.com / Admin@12345');
   } else {
-    console.log('  Admin user already exists, skipping.');
+    // Force-reset password via save so the pre-save hook rehashes correctly
+    existingAdmin.password = 'Admin@12345';
+    existingAdmin.roles = [superAdminRole];
+    existingAdmin.status = 'active';
+    await existingAdmin.save();
+    console.log('  Admin user password reset: admin@erp.com / Admin@12345');
   }
 
   console.log('\nSeed complete!');
