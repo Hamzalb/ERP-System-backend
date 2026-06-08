@@ -13,6 +13,13 @@ import path from 'path';
 const router = Router();
 router.use(authenticate);
 
+// Current user profile
+router.get('/me', asyncHandler(async (req: any, res) => {
+  const user = await User.findById(req.user.userId).populate('roles', 'name').select('-sessions -password');
+  if (!user) throw ApiError.notFound('User not found');
+  sendSuccess(res, user);
+}));
+
 const storage = multer.diskStorage({
   destination: 'uploads/avatars',
   filename: (_req, file, cb) => cb(null, `${Date.now()}${path.extname(file.originalname)}`),
